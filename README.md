@@ -69,3 +69,9 @@ A simple command line to do list that allows user to:
 
 ## How to run the projects
 Make sure you have 'Python 3' installed.
+Clone the repository
+git clone https://github.com/Malik-Zaamin/python-mini-projects
+Navigate into repository folder
+cd python-mini-projects
+Run any project from command line
+python file.py
