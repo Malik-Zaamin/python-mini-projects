@@ -54,6 +54,13 @@ A simple command line to do list that allows user to:
 
 ---
 
+### Snake Game
+A traditional snake game which runs until the user loses.
+- runs till infinity or until user loses
+- keeps a track of the score
+- uses Object Oriented Programming
+- Introduced me to my first experience with OOP
+
 ## Skills practiced
 - Python syntax and fundamentals
 - loops and conditionals
