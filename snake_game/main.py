@@ -7,8 +7,8 @@ GAME_HEIGHT = 720
 SPEED = 100
 SPACE_SIZE = 20
 BODY_PARTS = 3
-SNAKE_COLOR = "#00FF00"
-FOOD_COLOR = "#FF0000"
+SNAKE_COLOR = "#0000ff"
+FOOD_COLOR = "#00ff00"
 BACKGROUND_COLOR = "#000000"
 
 
@@ -22,7 +22,7 @@ class Snake:
             self.coordinates.append([0, 0])
 
         for x, y in self.coordinates:
-            square = canvas.create_oval(x,y, x + SPACE_SIZE, y + SPACE_SIZE, fill=SNAKE_COLOR, tag="Snake")
+            square = canvas.create_rectangle(x,y, x + SPACE_SIZE, y + SPACE_SIZE, fill=SNAKE_COLOR, tag="Snake")
             self.squares.append(square)
 
 class Food:
