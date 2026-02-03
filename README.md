@@ -61,6 +61,17 @@ A traditional snake game which runs until the user loses.
 - uses Object Oriented Programming
 - Introduced me to my first experience with OOP
 
+---
+
+### Morse code generator
+A simple morse code generator
+- Converts english and digits to morse code
+- Runs on CLI
+- Handles an exception of a space
+- Writes in perfect morse code with '/' indicating the next word
+
+---
+
 ## Skills practiced
 - Python syntax and fundamentals
 - loops and conditionals
