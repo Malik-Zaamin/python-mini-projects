@@ -72,6 +72,15 @@ A simple morse code generator
 
 ---
 
+### Tic Tac Toe
+- Made a Tic-Tac-Toe game from scratch
+- Learnt about arrays and dimensions of lists
+- Tried using Numpy but at the end made it with core python
+- Used random module
+
+---
+
+
 ## Skills practiced
 - Python syntax and fundamentals
 - loops and conditionals
