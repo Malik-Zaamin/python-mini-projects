@@ -88,6 +88,8 @@ A simple morse code generator
 - Responsive PyQt5 graphical interface
 - Robust error handling for: Invalid input, Network issues, API errors (401, 404, 500, etc)
 
+---
+
 ## Skills practiced
 - python syntax and fundamentals
 - loops and conditionals
@@ -102,8 +104,6 @@ A simple morse code generator
 - handling real world edge cases
 - writing clean, modular and readable code
 - basic flow control
-- logical thinking
-- creative problem solving
 
 ---
 
