@@ -80,14 +80,27 @@ A simple morse code generator
 
 ---
 
+### Weather App (PyQt5)
+- A desktop weather application built with Python and PyQt5 that fetches real-time weather data from the OpenWeather API and presents it in a clean GUI.
+- Features:
+- Search weather information by city name
+- It displays: Current temperature in Celcius, Weather condition description, Visual weather emoji based on conditions
+- Responsive PyQt5 graphical interface
+- Robust error handling for: Invalid input, Network issues, API errors (401, 404, 500, etc)
 
 ## Skills practiced
-- Python syntax and fundamentals
+- python syntax and fundamentals
 - loops and conditionals
 - functions
 - user input handling
 - error handling
 - lists and basic data structures
+- getting familiar with different modules
+- python application development
+- GUI programming using PyQt5
+- working with external REST APIs
+- handling real world edge cases
+- writing clean, modular and readable code
 - basic flow control
 - logical thinking
 - creative problem solving
