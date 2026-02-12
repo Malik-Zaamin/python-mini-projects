@@ -90,6 +90,12 @@ A simple morse code generator
 
 ---
 
+### Junk File Organizer
+- A simple junk file organizer
+- Organizes files according to their types
+- html, python, images, gifs, documents, pdfs etc
+- For basic file management
+
 ## Skills practiced
 - python syntax and fundamentals
 - loops and conditionals
@@ -104,6 +110,8 @@ A simple morse code generator
 - handling real world edge cases
 - writing clean, modular and readable code
 - basic flow control
+- handling directories
+- basic helpful automation
 
 ---
 
