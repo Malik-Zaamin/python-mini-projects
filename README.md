@@ -1,8 +1,8 @@
 # Python Mini Projects
 
-A collection of beginner-friendly Python CLI projects built to practice small core programming concepts.
+A collection of beginner-friendly Python CLI and GUI projects built to practice core programming concepts and explore real-world applications of Python.
 
-This repository documents my learning with Python through small, focused projects.
+This repository documents my learning journey through small, focused projects ranging from CLI games to machine learning models and desktop applications.
 
 ---
 
@@ -10,113 +10,127 @@ This repository documents my learning with Python through small, focused project
 
 ### Calculator
 A command line calculator that handles:
-- addition
-- subtraction
-- multiplication
-- division
-- exponents
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Exponents
 
-Features input validation, runs until user quits and handles the error of dividing by zero.
+Features input validation, runs continuously until the user quits, and handles division-by-zero errors.
 
 ---
 
 ### Rock Paper Scissors
-A simple rock paper scissors game where user plays against the computer.
-- random computer choices
-- replay option
+A simple game where the user plays against the computer.
+- Random computer choices
+- Replay option
 
 ---
 
-### Number guessing game
-A game where user guesses a number in the customized range.
-- customizable range
-- tracks the number of attempts
-- provides feedback (too high, too low)
-- ends if user exceeds 7 attempts or if the number is guessed correctly prior to that
+### Number Guessing Game
+A game where the user guesses a number within a custom range.
+- Customizable range
+- Tracks number of attempts
+- Feedback (too high / too low)
+- Ends after 7 attempts or correct guess
 
 ---
 
-### Dice rolling game
-A game where the user rolls the dice till they hit 36 in total
-- counts the sum of the rolls
-- counts the number of attempts
-- gives user the number of attempts at the end
-- rerolls if total exceeds 36
-- ends when total reaches exactly 36
+### Dice Rolling Game
+A game where the user rolls a dice until reaching a total of 36.
+- Tracks sum of rolls
+- Counts attempts
+- Ends when total reaches exactly 36
+- Rerolls if total exceeds 36
+
+---
 
 ### To-Do List
-A simple command line to do list that allows user to:
-- add tasks
-- edit tasks
-- delete tasks
-- view tasks
-- quit on demand
+A command-line to-do list application that allows users to:
+- Add tasks
+- Edit tasks
+- Delete tasks
+- View tasks
+- Exit on demand
 
 ---
 
 ### Snake Game
-A traditional snake game which runs until the user loses.
-- runs till infinity or until user loses
-- keeps a track of the score
-- uses Object Oriented Programming
-- Introduced me to my first experience with OOP
+A classic Snake game built using Python.
+- Runs until the user loses
+- Score tracking
+- Built using Object-Oriented Programming
+- First major OOP-based project
 
 ---
 
-### Morse code generator
-A simple morse code generator
-- Converts english and digits to morse code
-- Runs on CLI
-- Handles an exception of a space
-- Writes in perfect morse code with '/' indicating the next word
+### Morse Code Generator
+A CLI tool that converts text into Morse code.
+- Supports letters and digits
+- Handles spaces between words
+- Uses “/” to separate words
+- Clean CLI output
 
 ---
 
 ### Tic Tac Toe
-- Made a Tic-Tac-Toe game from scratch
-- Learnt about arrays and dimensions of lists
-- Tried using Numpy but at the end made it with core python
-- Used random module
+A simple terminal-based Tic Tac Toe game.
+- Built from scratch
+- Uses 2D lists (arrays)
+- Randomized turns
+- Learned list indexing and game logic
 
 ---
 
 ### Weather App (PyQt5)
-- A desktop weather application built with Python and PyQt5 that fetches real-time weather data from the OpenWeather API and presents it in a clean GUI.
-- Features:
-- Search weather information by city name
-- It displays: Current temperature in Celcius, Weather condition description, Visual weather emoji based on conditions
-- Responsive PyQt5 graphical interface
-- Robust error handling for: Invalid input, Network issues, API errors (401, 404, 500, etc)
+A desktop weather application using Python and PyQt5.
+- Fetches real-time weather using OpenWeather API
+- Search by city name
+- Displays temperature (°C), weather conditions, and emoji indicators
+- Handles API and network errors gracefully
 
 ---
 
 ### Junk File Organizer
-- A simple junk file organizer
-- Organizes files according to their types
-- html, python, images, gifs, documents, pdfs etc
-- For basic file management
-
-## Skills practiced
-- python syntax and fundamentals
-- loops and conditionals
-- functions
-- user input handling
-- error handling
-- lists and basic data structures
-- getting familiar with different modules
-- python application development
-- GUI programming using PyQt5
-- working with external REST APIs
-- handling real world edge cases
-- writing clean, modular and readable code
-- basic flow control
-- handling directories
-- basic helpful automation
+A file automation tool that organizes files by type.
+- Sorts files into folders (images, PDFs, documents, etc.)
+- Automates directory cleanup
+- Helps with file management
 
 ---
 
-## How to run the projects
-- Make sure you have 'Python 3' installed.
-- Clone the repository 'git clone https://github.com/Malik-Zaamin/python-mini-projects'
-- Navigate into repository folder 'cd python-mini-projects'
-- Run any project from command line 'python file.py'
+### Handwritten Digit Recognition (CNN - MNIST)
+A Convolutional Neural Network built using TensorFlow/Keras to classify handwritten digits (0–9).
+
+- Trained on the MNIST dataset
+- Uses CNN architecture with Conv2D and MaxPooling layers
+- Achieves ~98% accuracy on test data
+- Includes preprocessing pipeline for grayscale image input
+- Supports prediction of handwritten digit images
+
+---
+
+## Skills Practiced
+- Python fundamentals
+- Control flow (loops, conditionals)
+- Functions and modular programming
+- Error handling
+- Data structures (lists, arrays)
+- File handling and automation
+- Object-Oriented Programming (OOP)
+- GUI development using PyQt5
+- REST API integration
+- Real-world error handling
+- Basic image preprocessing
+- Deep learning fundamentals (CNNs, training, evaluation)
+- TensorFlow / Keras usage
+- Model evaluation and inference
+
+---
+
+## How to Run
+
+- Install Python 3
+- Clone the repository:
+```bash
+git clone https://github.com/Malik-Zaamin/python-mini-projects
